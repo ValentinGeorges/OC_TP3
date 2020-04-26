@@ -1,0 +1,97 @@
+@mixin gradientChic {
+    background-clip: text;
+    background: -webkit-linear-gradient(150deg, #c67412, #6e4ccc);
+    background: -moz-linear-gradient(150deg, #c67412, #6e4ccc);
+    background: -ms-linear-gradient(150deg, #c67412, #6e4ccc);
+    background: -o-linear-gradient(150deg, #c67412, #6e4ccc);
+    background: linear-gradient(150deg, #c67412, #6e4ccc);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+}
+
+@mixin gradientDelice {
+    background-clip: text;
+    background: -webkit-linear-gradient(150deg, #0025df, #43adf9);
+    background: -moz-linear-gradient(150deg, #0025df, #43adf9);
+    background: -ms-linear-gradient(150deg, #0025df, #43adf9);
+    background: -o-linear-gradient(150deg, #0025df, #43adf9);
+    background: linear-gradient(150deg, #0025df, #43adf9);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+}
+
+@mixin gradientPalette {
+    background-clip: text;
+    background: -webkit-linear-gradient(150deg, #43973a, #bafb7b);
+    background: -moz-linear-gradient(150deg, #43973a, #bafb7b);
+    background: -ms-linear-gradient(150deg, #43973a, #bafb7b);
+    background: -o-linear-gradient(150deg, #43973a, #bafb7b);
+    background: linear-gradient(150deg, #43973a, #bafb7b);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+}
+
+@font-face {
+    font-family: 'Vidaloka';
+    src: url('polices/vidaloka-regular-webfont.woff2') format('woff2'),
+         url('polices/vidaloka-regular-webfont.woff') format('woff'),
+         url('polices/vidaloka-regular-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('polices/kalam-regular-webfont.woff2') format('woff2'),
+         url('polices/kalam-regular-webfont.woff') format('woff'),
+         url('polices/kalam-regular-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Croissant';
+    src: url('polices/croissantone-regular-webfont.woff2') format('woff2'),
+         url('polices/croissantone-regular-webfont.ttf') format('ttf'),
+         url('polices/croissantone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaushan';
+    src: url('polices/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('polices/kaushanscript-regular-webfont.otf') format('otf'),
+         url('polices/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('polices/dancingscript-regular-webfont.woff2') format('woff2'),
+         url('polices/dancingscript-regular-webfont.otf') format('otf'),
+         url('polices/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
