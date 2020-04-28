@@ -241,10 +241,10 @@ section {
 
 .en-tete {
     display: flex;
+    justify-content: space-between;
 
     & p {
         font-size: 1.5rem;
-        width: 335px;
         text-align: center;
         font-weight: bold;
         margin-top: 9px;
@@ -354,15 +354,15 @@ span:hover::after {
         margin-top: 100px;
     }
 
-    & .span1::after{
+    & .spanChic1::after{
         background: #c67412;
     }  
     
-    & .span2::after{
+    & .spanChic2::after{
         background: #a56799;
     }   
 
-    & .span3::after{
+    & .spanChic3::after{
         background: #6e4ccc;
     }   
 }
@@ -396,15 +396,15 @@ span:hover::after {
         margin-bottom: 100px;
     }
 
-    & .span1::after{
+    & .spanDelice1::after{
         background: #0025df;
     }  
     
-    & .span2::after{
+    & .spanDelice2::after{
         background: #358DF4;
     }   
 
-    & .span3::after{
+    & .spanDelice3::after{
         background: #1D9DFB;
     } 
 }
@@ -451,6 +451,7 @@ footer {
     padding:0.1em;
     display: flex;
     position: fixed;
+    justify-content: space-between;
     bottom: 0;
     width: 100%;
 
@@ -464,7 +465,6 @@ footer {
 }
 
 .boardLeftFooter {
-    width: 50%;
     padding-left: 10px;
 
     & p:hover {
@@ -473,7 +473,6 @@ footer {
 }
 
 .boardRightFooter {
-    width: 50%;
     text-align: end;
     padding-right: 10px;
 

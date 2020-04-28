@@ -348,10 +348,10 @@ section div:last-child {
 
 .en-tete {
   display: flex;
+  justify-content: space-between;
 }
 .en-tete p {
   font-size: 1.5rem;
-  width: 335px;
   text-align: center;
   font-weight: bold;
   margin-top: 9px;
@@ -455,13 +455,13 @@ span:hover::after {
   margin-bottom: 100px;
   margin-top: 100px;
 }
-.block-page_chic .span1::after {
+.block-page_chic .spanChic1::after {
   background: #c67412;
 }
-.block-page_chic .span2::after {
+.block-page_chic .spanChic2::after {
   background: #a56799;
 }
-.block-page_chic .span3::after {
+.block-page_chic .spanChic3::after {
   background: #6e4ccc;
 }
 
@@ -497,13 +497,13 @@ span:hover::after {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.block-page_delice .span1::after {
+.block-page_delice .spanDelice1::after {
   background: #0025df;
 }
-.block-page_delice .span2::after {
+.block-page_delice .spanDelice2::after {
   background: #358DF4;
 }
-.block-page_delice .span3::after {
+.block-page_delice .spanDelice3::after {
   background: #1D9DFB;
 }
 
@@ -552,6 +552,7 @@ footer {
   padding: 0.1em;
   display: flex;
   position: fixed;
+  justify-content: space-between;
   bottom: 0;
   width: 100%;
 }
@@ -563,7 +564,6 @@ footer p {
 }
 
 .boardLeftFooter {
-  width: 50%;
   padding-left: 10px;
 }
 .boardLeftFooter p:hover {
@@ -571,7 +571,6 @@ footer p {
 }
 
 .boardRightFooter {
-  width: 50%;
   text-align: end;
   padding-right: 10px;
 }
